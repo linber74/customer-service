@@ -45,4 +45,4 @@ jobs:
           DB_URL: jdbc:mysql://localhost:3306/customer_db
           DB_USERNAME: root
           DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
-          JWT_SECRET: ${{ secrets.JWT_SECRETS }}
+          JWT_SECRET: ${{ secrets.JWT_SECRET }}

@@ -87,6 +87,4 @@ public class CustomerApiTest {
                         .content(objectMapper.writeValueAsString(request)))
                 .andExpect(status().isBadRequest());
     }
-
-
 }
