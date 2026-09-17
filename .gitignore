@@ -34,3 +34,5 @@ build/
 .env
 /.env
 k8s/secret.yaml
+*.log
+*.log.*.gz
