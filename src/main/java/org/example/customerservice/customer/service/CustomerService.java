@@ -194,7 +194,6 @@ public class CustomerService {
         }
     }
 
-
     @Transactional
     public void deleteCustomerByEmail(String email, String authenticatedUsername) {
         logger.info("Attempting to delete customer with email: {}", email);
