@@ -23,6 +23,5 @@ public record CreateCustomerRequest(
         @NotBlank(message = "Lösenord får inte vara tomt")
         @Size(min = 8, message = "Lösenordet måste vara minst 8 tecken")
         String password
-
 ) {
 }
